@@ -1,12 +1,44 @@
 *{
-    margin: 0;
-    padding: 0;
-    background-color: black;
+    background: rgb(5, 77, 101);
 }
 h1{
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border: 4px solid white;
-    margin-top: 10px;
+    color: rgb(193, 183, 129);
+    font-style: italic;
+    font-weight: bold; 
+    font-size: 400%;
 }
+ol{
+    color: rgb(193, 183, 129);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 270%;
+    list-style: circle;
+}
+p{    
+    color: rgb(222, 219, 203);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40%;
+}
+ul{
+    color: rgb(222, 219, 203);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40%;
+    list-style: lower-roman;
+}
+ul p {
+    font-size: 70%;
+    color: rgb(176, 172, 147);
+}
+.photo{
+    margin-left: 70%;
+    position: absolute;
+}
+/* .photo{
+    width: 100%;
+    min-height: 70vh;
+background: url('photo/photo.jpeg') no-repeat;
+background-size: 100%;
+position: relative;
+} */
